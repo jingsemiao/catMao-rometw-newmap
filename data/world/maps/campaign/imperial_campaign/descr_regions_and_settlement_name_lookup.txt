@@ -207,5 +207,7 @@ Thebes
 Rome
 BigMigdol
 migdol
-
-
+BigMeliliya
+meliliya
+BigColma
+colma

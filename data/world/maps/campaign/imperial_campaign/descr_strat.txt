@@ -23,10 +23,10 @@ unlockable
 	scythia
 	spain
 	thrace
+	slave
 end
 nonplayable
 	romans_senate
-	slave
 end
 
 
@@ -2068,6 +2068,10 @@ settlement
 	{
 		type market trader
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -2095,6 +2099,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -2110,6 +2118,10 @@ settlement
 	{
 		type core_building governors_house
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -2124,6 +2136,10 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -2147,6 +2163,14 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -3617,6 +3641,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -3640,6 +3668,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -3658,6 +3690,10 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -3681,6 +3717,10 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -4592,6 +4632,54 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region BigMeliliya
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator carthage
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region BigColma
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator carthage
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{

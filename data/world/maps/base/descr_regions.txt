@@ -835,3 +835,19 @@ BigMigdol
 	none
 	5
 	6
+BigMeliliya
+	meliliya
+	numidia
+	Moors
+	245 255 93
+	none
+	5
+	6
+BigColma
+	colma
+	carthage
+	Moors
+	41 255 136
+	none
+	5
+	6
