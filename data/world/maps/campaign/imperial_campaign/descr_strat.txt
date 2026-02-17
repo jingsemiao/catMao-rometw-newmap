@@ -4571,6 +4571,34 @@ settlement
 	faction_creator carthage
 }
 
+settlement
+{
+	level large_town
+	region BigMigdol
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator carthage
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	sub_faction britons, Brigomaglos, general, age 20, , x 36, y 142
 
 army
