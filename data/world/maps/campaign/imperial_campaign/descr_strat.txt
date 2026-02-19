@@ -3645,6 +3645,10 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -3672,6 +3676,10 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -3694,6 +3702,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -3721,6 +3733,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -4602,14 +4618,36 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Tripolitania
 
 	year_founded 0
-	population 800
+	population 2500
 	plan_set default_set
 	faction_creator carthage
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+4
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;           新增的地区
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 settlement
 {
@@ -4703,7 +4741,60 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type hinterland_farms farms+3
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region EastTripolitania
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms+3
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+
+settlement
+{
+	level town
+	region Phazania
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms+3
 	}
 	building
 	{

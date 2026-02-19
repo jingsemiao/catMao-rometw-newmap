@@ -770,7 +770,7 @@ Tripolitania
 	202 17 48
 	none
 	5
-	5
+	8
 Cyrenaica
 	Cyrene
 	macedon
@@ -859,3 +859,19 @@ GreatDimmidi
 	none
 	1
 	0
+EastTripolitania
+	macomades
+	carthage
+	Poeni
+	202 126 18
+	none
+	5
+	8
+Phazania
+	garama
+	numidia
+	Gaetuli
+	0 136 19
+	none
+	1
+	1

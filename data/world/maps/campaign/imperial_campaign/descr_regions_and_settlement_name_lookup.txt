@@ -213,4 +213,7 @@ BigColma
 colma
 GreatDimmidi
 dimmidi
-
+EastTripolitania
+macomades
+Phazania
+garama
