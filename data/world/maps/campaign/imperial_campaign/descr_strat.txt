@@ -361,6 +361,28 @@ resource_quantity_enabled
 	resource	hides,          1,         80,   129
 	resource	silver,         1,         111,  54
 	resource	silver,         1,         111,  83
+	resource	purple_dye,     1,         1,    40
+	resource	elephants,      1,         3,    35
+	resource	elephants,      1,         30,   41
+	resource	camels,         1,         21,   25
+	resource	camels,         1,         24,   25
+	resource	elephants,      1,         46,   41
+	resource	camels,         1,         45,   33
+	resource	elephants,      1,         40,   18
+	resource	camels,         1,         57,   21
+	resource	camels,         1,         95,   2
+	resource	elephants,      1,         92,   20
+	resource	camels,         1,         85,   20
+	resource	elephants,      1,         108,  12
+	resource	elephants,      1,         97,   3
+	resource	wine,           1,         80,   45
+	resource	grain,          4,         91,   21
+	resource	grain,          2,         106,  14
+	resource	grain,          4,         84,   41
+	resource	wine,           1,         86,   33
+	resource	wine,           1,         86,   23
+	resource	olive_oil,      1,         87,   23
+	resource	olive_oil,      1,         107,  17
 end
 
 ;; JNF 2021-06-01 - resources with resource quantity disabled
@@ -374,7 +396,6 @@ resource_quantity_disabled
 	resource	gold,           1,         20,   84
 	resource	gold,           1,         140,  64
 	resource	grain,          1,         103,  44
-	resource	grain,          1,         84,   41
 	resource	lead,           1,         52,   143
 	resource	lead,           1,         52,   139
 	resource	amber,          1,         96,   137
