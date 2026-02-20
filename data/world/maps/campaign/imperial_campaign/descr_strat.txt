@@ -4912,6 +4912,34 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region GreatElAreesh
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator egypt
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
 character	sub_faction britons, Brigomaglos, general, age 20, , x 36, y 142
 
 army

@@ -891,4 +891,11 @@ Elsuez
 	none
 	5
 	5
-
+GreatElAreesh
+	elareesh
+	egypt
+	Libyans
+	245 255 95
+	none
+	5
+	2
