@@ -1608,6 +1608,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -1638,6 +1642,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -1673,6 +1681,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -4525,6 +4537,14 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -4628,13 +4648,26 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Nabataea
 
 	year_founded 0
 	population 900
 	plan_set default_set
 	faction_creator parthia
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -4820,6 +4853,62 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region NeLibya
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator egypt
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Elsuez
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator egypt
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 

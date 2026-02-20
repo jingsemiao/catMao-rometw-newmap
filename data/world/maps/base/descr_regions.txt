@@ -875,5 +875,20 @@ Phazania
 	none
 	1
 	0
-
+NeLibya
+	paraitonion
+	egypt
+	Libyans
+	245 255 94
+	none
+	1
+	0	
+Elsuez
+	ElGanayen
+	egypt
+	Libyans
+	202 126 19
+	none
+	5
+	5
 
